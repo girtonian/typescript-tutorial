@@ -10,29 +10,26 @@ const main = async function () {
     //
     // Docs: https://docs.story.foundation/docs/ipa-metadata-standard
     const ipMetadata = {
-        title: 'Midnight Marriage',
-        description: 'This is a house-style song generated on suno.',
+        title: 'Echo',
+        description: 'Echo is a vibrant, creative Curmunchkin who experiences tics that sometimes make unexpected sounds or movements.',
         createdAt: '1740005219',
         creators: [
             {
-                name: 'Jacob Tucker',
-                address: '0xA2f9Cf1E40D7b03aB81e34BC50f0A8c67B4e9112',
+                name: 'Curmunchkins',
+                address: '0xEef3A1533F10A8921Fc3Db2BF27573f6b145E286',
                 contributionPercent: 100,
             },
         ],
-        image: 'https://cdn2.suno.ai/image_large_8bcba6bc-3f60-4921-b148-f32a59086a4c.jpeg',
+        image: 'https://magenta-eligible-shrimp-383.mypinata.cloud/ipfs/bafybeih7fxfkxahoms5skmntkvgzxsep5v2ibsqkv6ijqs6ow4yyrp7qky',
         imageHash: '0xc404730cdcdf7e5e54e8f16bc6687f97c6578a296f4a21b452d8a6ecabd61bcc',
-        mediaUrl: 'https://cdn1.suno.ai/dcd3076f-3aa5-400b-ba5d-87d30f27c311.mp3',
-        mediaHash: '0xb52a44f53b2485ba772bd4857a443e1fb942cf5dda73c870e2d2238ecd607aee',
-        mediaType: 'audio/mpeg',
     }
 
     // 2. Set up your NFT Metadata
     //
     // Docs: https://docs.opensea.io/docs/metadata-standards#metadata-structure
     const nftMetadata = {
-        name: 'Midnight Marriage',
-        description: 'This is a house-style song generated on suno. This NFT represents ownership of the IP Asset.',
+        name: 'Echo',
+        description: 'Echo is a vibrant, creative Curmunchkin who experiences tics that sometimes make unexpected sounds or movements.',
         image: 'https://cdn2.suno.ai/image_large_8bcba6bc-3f60-4921-b148-f32a59086a4c.jpeg',
         media: [
             {
