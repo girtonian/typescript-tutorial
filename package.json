@@ -12,7 +12,9 @@
         "register-deriv-com-spg": "npx ts-node ./scripts/registerDerivativeCommercialSpg.ts",
         "dispute-ip": "npx ts-node ./scripts/disputeIp.ts",
         "create-spg-collection": "npx ts-node ./scripts/utils/createSpgNftCollection.ts",
-        "mint-art": "npx ts-node ./scripts/mintArtNFT.ts"
+        "mint-art": "npx ts-node ./scripts/mintArtNFT.ts",
+        "register-ai-agent": "npx ts-node ./scripts/registerAIAgent.ts",
+        "mint-with-pil": "npx ts-node ./scripts/mintNFTWithPIL.ts"
     },
     "author": "",
     "license": "ISC",
